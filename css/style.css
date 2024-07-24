@@ -1,0 +1,14 @@
+.c{
+    height: 30vh;
+    width: 30vw;
+    background-color: blue;
+    position: absolute;
+    left: 500px; 
+    transform: translate(0px, 150px);
+
+
+}
+
+.c1{
+    transform: translate(0px, 360px);
+}
