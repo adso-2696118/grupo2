@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.cuadro{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.foto{
+    width: 80px;
+    height: 80px;
+
+    background-color: red;
+    border-radius: 50%;
+}
+.itms{
+    width: 100%;
+    height: 40vh;
+    background-color: green;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.item{
+    height: 20px;
+    background-color: gray;
+}
+
+.blanco{
+    width: 100%;
+    height: 30vh;
+}
