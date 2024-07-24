@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 28px;
+    background-color: #0000ff;
+    border-radius: 3px;
+    width: 78%;
+    position: absolute;
+    left: 290px;
+    
+}
