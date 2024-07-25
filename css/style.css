@@ -1,0 +1,30 @@
+.princ{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+.princ > :nth-child(1) > :nth-child(1){
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 200px;
+    padding-left: 350px;
+}
+.princ > :nth-child(1) > :nth-child(2){
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 150px;
+}
+.princ > :nth-child(1) > :nth-child(3){
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 250px;
+}
+.princ > :nth-child(2) > :nth-child(1){
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 150px;
+    margin-left: 150px;
+}
